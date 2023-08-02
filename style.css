@@ -8,6 +8,7 @@ body{
     justify-content: space-between;
     background-color: blueviolet;
     color: aliceblue;
+    margin-bottom: 0px;
     
 
 }
@@ -26,6 +27,29 @@ display: flex;
 
 }
 li {
-    margin-left: 15px;
+    margin-left: 5%;
    
+}
+
+
+.section-middle {
+    background-image: linear-gradient(to right,rgb(229, 0, 73), rgb(249, 5, 5));
+    height: 704px;
+    margin-top: 0px;
+
+}
+.text-middle {
+    padding-top: 100px;
+    margin-left: 10%;
+    color: white;
+}
+h1 {
+    font-size: 96px;
+}
+h5 {
+    font-size: 48px;
+}
+
+.img-baymax-hi {
+    
 }
