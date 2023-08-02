@@ -6,15 +6,21 @@ body{
 .section-header {
     display: flex;
     justify-content: space-between;
-    background-color: blueviolet;
-    color: aliceblue;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     margin-bottom: 0px;
     
 
 }
 .div-left {
     margin-left: 10%;
-    padding-top: 15px;
+    padding-top: 10px;
+}
+.logo-baymax {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    cursor: pointer;
 }
 
 .div-right {
@@ -24,10 +30,11 @@ body{
 ul{
 list-style: none;
 display: flex;
+cursor: pointer;
 
 }
 li {
-    margin-left: 5%;
+    margin-left: 7%;
    
 }
 
@@ -36,20 +43,152 @@ li {
     background-image: linear-gradient(to right,rgb(229, 0, 73), rgb(249, 5, 5));
     height: 704px;
     margin-top: 0px;
+    display: flex;
 
 }
 .text-middle {
     padding-top: 100px;
     margin-left: 10%;
     color: white;
+    width: 60%;
 }
 h1 {
     font-size: 96px;
 }
+
+.text-baymax {
+    background: -webkit-linear-gradient(rgb(56, 1, 133), rgb(255, 255, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    
+}
 h5 {
     font-size: 48px;
 }
-
+.div-middle-right {
+    width: 30%;
+    padding-top:329px ;
+}
 .img-baymax-hi {
+    float: right;
+    margin-left: auto;
     
 }
+
+.section-content {
+    display: flex;
+    margin-bottom: 50px;
+    
+}
+
+.img-content {
+    width: 40%;
+    margin-left: 10%;
+    margin-right: 8%;
+    
+}
+
+.text-content {
+    width: 32%;
+    margin-right: 10%;
+    margin-top: 80px;
+
+
+}
+.heading-2 {
+    border-left: 10px solid;
+    padding-left: 20px;
+    border-image:linear-gradient(rgb(153, 0, 255), rgb(255, 0, 0)) 3;
+    font-size:40px ;
+}
+.text-content-p {
+    font-size: 24px;
+}
+
+.read-more-button {
+     
+        background-image: linear-gradient(red, tomato);
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-top: .5em;
+        padding-bottom: .5em;
+        color: white;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: .2s;
+        border: 2px solid rgb(255, 255, 255);
+
+
+
+    
+}
+.read-more-button:hover {
+    background-image: linear-gradient(white,rgb(255, 197, 197));
+    color: red;
+    border: 2px solid red;
+
+}
+.only-contact-text {
+    color: rgb(251, 255, 0);
+}
+
+.number-contact-us-text {
+    font-size: 20px;
+    
+}
+
+
+
+    .contact-section {
+        background-image: linear-gradient(to right,rgb(229, 0, 73), rgb(249, 5, 5));
+        padding-left: 10%;
+        height: 280px;
+        display: flex;
+        padding-right: 10%;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .contact-left  {
+        padding-top: 50px;
+        width: 40%;
+    padding-right: 10%;
+
+    }
+   .need-a-hero-text {
+    font-size: 40px;
+    color: white;
+   }
+
+    .number {
+        
+        color: white;
+        padding-left: 10px;
+    }
+    svg {padding-top: 20px;
+        padding-right: 10px;
+
+
+    }
+
+    .number-contact-icon {
+        display: flex;
+        color: white;
+    }
+    .right-contact {
+        width: 40%;
+    }
+
+    .social-icons {
+        justify-content: end;
+        padding-left: 70%;
+        padding-top: 80px;
+    } 
+    .term-con {
+        padding-top: 85px;
+        padding-left: 35%;
+        color: white;
+
+
+
+    }
