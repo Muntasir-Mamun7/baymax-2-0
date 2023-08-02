@@ -1,3 +1,31 @@
 body{
+    margin: 0px;
+    padding: 0px;
     font-family: 'Freckle Face', cursive;
+}
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: blueviolet;
+    color: aliceblue;
+    
+
+}
+.div-left {
+    margin-left: 10%;
+    padding-top: 15px;
+}
+
+.div-right {
+    margin-right: 10%;
+}
+
+ul{
+list-style: none;
+display: flex;
+
+}
+li {
+    margin-left: 15px;
+   
 }
