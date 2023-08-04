@@ -22,9 +22,15 @@ body{
     border-radius: 20px;
     cursor: pointer;
 }
+.logo-baymax:hover {
+    opacity: .8;
+}
 
 .div-right {
     margin-right: 10%;
+}
+nav {
+
 }
 
 ul{
@@ -36,6 +42,10 @@ cursor: pointer;
 li {
     margin-left: 7%;
    
+}
+
+li:hover {
+    color: red;
 }
 
 
@@ -191,4 +201,7 @@ h5 {
 
 
 
+    }
+    .term-con:hover {
+        color:gainsboro ;
     }
