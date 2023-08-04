@@ -44,10 +44,15 @@ li {
    
 }
 
-li:hover {
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
     color: red;
 }
-
 
 .section-middle {
     background-image: linear-gradient(to right,rgb(229, 0, 73), rgb(249, 5, 5));
