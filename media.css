@@ -1,0 +1,215 @@
+@media only screen and (max-width: 600px) {
+    body {
+    }
+    .section-header {
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        margin-bottom: 0px;
+        
+    
+    }
+    .div-left {
+        margin-left: 10%;
+        padding-top: 10px;
+    }
+    .logo-baymax {
+        height: 20px;
+        width: 20px;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    
+    .div-right {
+        margin-right: 20%;
+    }
+    
+    ul{
+    list-style: none;
+    display: flex;
+    cursor: pointer;
+    
+    }
+    li {
+        margin-left: 7%;
+        font-size: 10px;
+       
+    }
+    
+    
+    .section-middle {
+        background-image: linear-gradient(to right,rgb(229, 0, 73), rgb(249, 5, 5));
+        height: 100%;
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .text-middle {
+        padding-top: 0px;
+        margin-left: 10%;
+        color: white;
+        width: 60%;
+    }
+    h1 {
+        font-size: 60px;
+        padding-left: 20%;
+    }
+    
+    .text-baymax {
+        background: -webkit-linear-gradient(rgb(56, 1, 133), rgb(255, 255, 255));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+        
+    }
+    h5 {
+        font-size: 24px;
+        padding-left: 20%;
+    }
+    .div-middle-right {
+        width: 100%;
+        padding-top: 0px;
+    }
+    .img-baymax-hi {
+
+    }
+    
+    .section-content {
+        display: flex;
+        margin-bottom: 50px;
+        flex-direction: column;
+        
+    }
+    
+    .img-content {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 8%;
+        
+    }
+
+    .baymax-with-hiro {
+        width: 100%;
+    }
+    
+    .text-content {
+        width: 80%;
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-top: 80px;
+    
+    
+    }
+    .heading-2 {
+        border-left: 10px solid;
+        padding-left: 20px;
+        border-image:linear-gradient(rgb(153, 0, 255), rgb(255, 0, 0)) 3;
+        font-size:40px ;
+    }
+    .text-content-p {
+        font-size: 24px;
+    }
+    
+    .read-more-button {
+         
+            background-image: linear-gradient(red, tomato);
+            padding-left: 1em;
+            padding-right: 1em;
+            padding-top: .5em;
+            padding-bottom: .5em;
+            color: white;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: .2s;
+            border: 2px solid rgb(255, 255, 255);
+    
+    
+    
+        
+    }
+    .read-more-button:hover {
+        background-image: linear-gradient(white,rgb(255, 197, 197));
+        color: red;
+        border: 2px solid red;
+    
+    }
+    .only-contact-text {
+        color: rgb(251, 255, 0);
+    }
+    
+        
+
+        
+    
+    
+    
+    
+        .contact-section {
+            background-image: linear-gradient(to right,rgb(229, 0, 73), rgb(249, 5, 5));
+            padding-left: 10%;
+            height: 100%;
+            display: flex;
+            padding-right: 10%;
+            display: flex;
+            flex-direction: column;
+            
+        }
+        .contact-left  {
+            padding-top: 50px;
+            width: 100%;
+        display: flex;
+        justify-content: space-between;
+    
+        }
+       .need-a-hero-text {
+        font-size: 24px;
+        color: white;
+        width: 50%;
+       }
+    
+        .number {
+            
+            color: white;
+            width: 100%;
+            font-size: 15px;
+            padding-top: 5px;
+
+        }
+        svg {padding-top: 20px;
+            padding-right: 10px;
+            height: 20px;
+width: 20px;    
+    
+        }
+    
+        .number-contact-icon {
+            display: flex;
+            color: white;
+        }
+        .right-contact {
+            width: 100%;
+
+        }
+    
+        .social-icons {
+            display: flex;
+            justify-content: start;
+            padding-left: 0%;
+            padding-top: 20px;
+            width: 50%;
+        } 
+        .term-con {
+            display: flex;
+            justify-content: center;
+            padding-left: 0%;
+            width: 100%;
+            padding-top: 0%;
+            color: white;
+            font-size: 10px;
+    
+    
+    
+        }
+
+  }
